@@ -154,14 +154,12 @@ aside{
     height: calc((400px / 2) - 20px);
 }
 
-nav ul .pro .sub {
-    display:none;
+
+.sub{
+    display: none;
+    position: relative;
+ 
 }
-
- nav ul .pro .sub li {
-    position:relative;
-   } 
-
-   nav ul .pro .sub:hover {
-    display:block!important;
+.pro:hover .sub{
+    display: block;
 }
